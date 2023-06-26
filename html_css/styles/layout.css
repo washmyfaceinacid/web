@@ -1,0 +1,62 @@
+@import url("user.css");
+@import url("style_home.css");
+@import url("framework.css");
+.container {
+  padding: 100px 0;
+  margin-left: 200px;
+}
+
+.container-aud {
+  margin-left: 200px;
+}
+
+.sidebar .sdb_holder {
+  margin-bottom: 50px;
+}
+
+.sidebar .sdb_holder:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: #EA5616;
+}
+
+a:active, a:focus {
+  background: transparent;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+input:focus, textarea:focus, *:required:focus {
+  border-color: #EA5616;
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #EA5616;
+  border-color: #EA5616;
+}
+
+.btn.inverse:hover {
+  color: #FFFFFF;
+  background-color: #EA5616;
+  border-color: #EA5616;
+}
+
+.btn:hover, .btn.inverse {
+  color: inherit;
+  background-color: transparent;
+  border-color: inherit;
+}
+
+@media (max-width: 1370px) {
+  body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+}
+/*# sourceMappingURL=layout.css.map */
